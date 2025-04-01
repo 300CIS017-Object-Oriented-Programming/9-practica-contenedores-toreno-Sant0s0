@@ -1,0 +1,6 @@
+# ninja log v6
+31	571	7652416889314764	CMakeFiles/9_practica_contenedores_toreno_Sant0s0.dir/main.cpp.obj	6843beaa320699db
+546	747	7652407411579736	9_practica_contenedores_toreno_Sant0s0.exe	3bbe99e115e31f31
+5	351	7652423762116678	build.ninja	b10e417303ba8b75
+12	771	7652421199287254	CMakeFiles/9_practica_contenedores_toreno_Sant0s0.dir/Jugador.cpp.obj	d69c720b285dd0a7
+29	771	7652434220831108	CMakeFiles/9_practica_contenedores_toreno_Sant0s0.dir/Videojuego.cpp.obj	6810d37d73f8b235

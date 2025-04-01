@@ -1,0 +1,3 @@
+C:/Users/Santi/OneDrive/Desktop/Poo/9-practica-contenedores-toreno-Sant0s0/cmake-build-debug/CMakeFiles/9_practica_contenedores_toreno_Sant0s0.dir
+C:/Users/Santi/OneDrive/Desktop/Poo/9-practica-contenedores-toreno-Sant0s0/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Santi/OneDrive/Desktop/Poo/9-practica-contenedores-toreno-Sant0s0/cmake-build-debug/CMakeFiles/rebuild_cache.dir
