@@ -15,14 +15,15 @@ class Jugador{
   private:
     string nickname;
     int nivelranking;
-    vector<Videojuego*> juego;
+    vector<Videojuego*> juegos;
   public:
     Jugador();
     Jugador(string nickname, int nivelranking);
     string getNickname();
     int getNivelRanking();
-    vector<Videojuego*> getJuego();
-
+    void inscribirVideojuego(Videojuego* juego);
+    void mostrarJuegos();
+    int mostrarPromedioDificultad();
 };
 
 

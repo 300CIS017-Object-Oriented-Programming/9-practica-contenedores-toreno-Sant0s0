@@ -61,6 +61,12 @@ build CMakeFiles/9_practica_contenedores_toreno_Sant0s0.dir/Jugador.cpp.obj: CXX
   OBJECT_DIR = CMakeFiles\9_practica_contenedores_toreno_Sant0s0.dir
   OBJECT_FILE_DIR = CMakeFiles\9_practica_contenedores_toreno_Sant0s0.dir
 
+build CMakeFiles/9_practica_contenedores_toreno_Sant0s0.dir/Torneo.cpp.obj: CXX_COMPILER__9_practica_contenedores_toreno_Sant0s0_unscanned_Debug C$:/Users/Santi/OneDrive/Desktop/Poo/9-practica-contenedores-toreno-Sant0s0/Torneo.cpp || cmake_object_order_depends_target_9_practica_contenedores_toreno_Sant0s0
+  DEP_FILE = CMakeFiles\9_practica_contenedores_toreno_Sant0s0.dir\Torneo.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\9_practica_contenedores_toreno_Sant0s0.dir
+  OBJECT_FILE_DIR = CMakeFiles\9_practica_contenedores_toreno_Sant0s0.dir
+
 build CMakeFiles/9_practica_contenedores_toreno_Sant0s0.dir/Videojuego.cpp.obj: CXX_COMPILER__9_practica_contenedores_toreno_Sant0s0_unscanned_Debug C$:/Users/Santi/OneDrive/Desktop/Poo/9-practica-contenedores-toreno-Sant0s0/Videojuego.cpp || cmake_object_order_depends_target_9_practica_contenedores_toreno_Sant0s0
   DEP_FILE = CMakeFiles\9_practica_contenedores_toreno_Sant0s0.dir\Videojuego.cpp.obj.d
   FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
@@ -75,7 +81,7 @@ build CMakeFiles/9_practica_contenedores_toreno_Sant0s0.dir/Videojuego.cpp.obj: 
 #############################################
 # Link the executable 9_practica_contenedores_toreno_Sant0s0.exe
 
-build 9_practica_contenedores_toreno_Sant0s0.exe: CXX_EXECUTABLE_LINKER__9_practica_contenedores_toreno_Sant0s0_Debug CMakeFiles/9_practica_contenedores_toreno_Sant0s0.dir/main.cpp.obj CMakeFiles/9_practica_contenedores_toreno_Sant0s0.dir/Jugador.cpp.obj CMakeFiles/9_practica_contenedores_toreno_Sant0s0.dir/Videojuego.cpp.obj
+build 9_practica_contenedores_toreno_Sant0s0.exe: CXX_EXECUTABLE_LINKER__9_practica_contenedores_toreno_Sant0s0_Debug CMakeFiles/9_practica_contenedores_toreno_Sant0s0.dir/main.cpp.obj CMakeFiles/9_practica_contenedores_toreno_Sant0s0.dir/Jugador.cpp.obj CMakeFiles/9_practica_contenedores_toreno_Sant0s0.dir/Torneo.cpp.obj CMakeFiles/9_practica_contenedores_toreno_Sant0s0.dir/Videojuego.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\9_practica_contenedores_toreno_Sant0s0.dir

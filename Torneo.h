@@ -17,12 +17,16 @@ using namespace std;
 
 class Torneo {
   private:
-    map<string, Videojuego*> juego;
-    map<string, Jugador*> jugador;
+    map<int, Videojuego*> juegos;
+    map<string, Jugador*> jugadores;
     public:
     Torneo();
     void registrarVideojuego();
     void registrarJugador();
-
+    void inscribirJugador();
+    void mostrarJuegos();
+    void mostrarPromedioDificultad();
+    void inicializar();
+    void mostrarRanking();
 };
 #endif //TORNEO_H

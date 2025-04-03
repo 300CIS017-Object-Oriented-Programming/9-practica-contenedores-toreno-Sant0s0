@@ -24,6 +24,20 @@ string Jugador::getNickname() {
 int Jugador::getNivelRanking() {
   return nivelranking;
 }
-vector<Videojuego*> Jugador::getJuego() {
-  return juego;
+void Jugador::inscribirVideojuego(Videojuego* juego) {
+  juegos.push_back(juego);
+}
+
+void Jugador::mostrarJuegos() {
+  for (int i = 0; i < juegos.size(); i++) {
+    cout << juegos[i]->getnombre() << endl;
+  }
+}
+int Jugador::mostrarPromedioDificultad() {
+  int suma = 0;
+  for (int i = 0; i < juegos.size(); i++) {
+    suma += juegos[i]->getniveldificultad();
+  }
+  int promedioDificultad = suma / juegos.size();
+  return promedioDificultad;
 }
